@@ -29,7 +29,7 @@ public class LoggingService {
 		 try
 		 {
 			 	
-			 FileWriter fileWriter = new FileWriter("./" + appName + "/logs/" + className + ".out", true);
+			 FileWriter fileWriter = new FileWriter("./" + appName + "/log/" + className + ".out", true);
 			    PrintWriter printWriter = new PrintWriter(fileWriter);
 			 	final String encoding = "UTF-8"; 
 			 	Calendar cal = Calendar.getInstance();
